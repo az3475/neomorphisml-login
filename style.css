@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: rgb(39, 39,39);
+}
+.container{
+    width: 35rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 6px 6px 4px rgba(0,0,0.248), -6px -6px 4px rgb(48, 48,48);
+    border-radius: 50px;
+}
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    top: 8rem;
+}
+.form-title{
+    position: relative;
+    background-color: rgb(39, 39,39);
+    bottom: 2rem;
+    display: flex;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 6px 6px 4px rgba(10, 10, 10, 0.241);
+    user-select: none;
+    color: rgb(245, 24, 101);   
+}
+.Form-input{
+    position: relative;
+    margin: 20px;
+    width: 25rem;
+    height: 4rem;
+    padding: 0 20px;
+    background: rgb(39, 39,39);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(245, 24,101);
+    box-shadow: 4px 4px 4px rgba(0,0,0.179) , -4px -4px -4px rgb(48, 48,48);
+}
+.Form-input::-moz-placeholder{
+    color: rgb(79, 79,79);
+}
+.Form-input::placeholder{
+    color: rgb(79, 79,79);   
+}
+.Form-input:focus{
+    box-shadow: -4px -4px -4px rgba(0,0,0.179) , 4px 4px 4px rgb(48, 48,48);
+}
+button{
+    width: 150px;
+    height: 60px;
+    border: 0;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 2.5rem;
+    border-radius: 30px;
+    color: rgb(245, 24,101);
+    background: rgb(39, 39,39);
+    cursor: pointer;
+    box-shadow: 6px 6px 4px rgba(0,0,0.248), -6px -6px 4px rgb(48, 48,48);   
+}
+button:active{
+    transform: scale(.9);
+}
+.forget-password{
+    font-size: 19px;
+    text-decoration: none;
+    color: #ffff;
+
+}
+.forget-password:hover{
+    color: rgb(245, 24,101);
+}
